@@ -11,6 +11,8 @@ namespace Applitools.Example.Tests;
 /// <summary>
 /// Tests for the ACME Bank demo app.
 /// </summary>
+/// 
+//to run use" dotnet build & dotnet test
 public class AcmeBankTest
 {
     // Test control inputs to read once and share for all tests
