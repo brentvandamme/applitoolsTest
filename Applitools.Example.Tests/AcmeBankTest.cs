@@ -34,8 +34,8 @@ public class AcmeBankTest
     [OneTimeSetUp]
     public static void SetUpConfigAndRunner()
     {
-        // Read the Applitools API key from an environment variable.
-        ApplitoolsApiKey = Environment.GetEnvironmentVariable("APPLITOOLS_API_KEY");
+        // Read the Applitools API key
+        ApplitoolsApiKey = "jEnxBm103104wkd936uGIIHZdbRZy5nbtNUP99r6FDrO9tx0110";
 
         // Read the headless mode setting from an environment variable.
         // Use headless mode for Continuous Integration (CI) execution.
